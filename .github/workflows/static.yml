@@ -7,11 +7,11 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ownserver
     steps:
       - name: print hello world
         run: |
          echo "hello world"
          hostname
          ip a
-         
+
