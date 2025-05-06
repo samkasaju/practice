@@ -7,11 +7,10 @@ on:
 
 jobs:
   deploy:
-    runs-on: ownserver
+    runs-on: self-hosted
     steps:
       - name: print hello world
         run: |
-         echo "hello world"
-         hostname
-         ip a
-
+          echo "hello world"
+          hostname
+          ip a
