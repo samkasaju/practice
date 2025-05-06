@@ -1,21 +1,13 @@
-
 name: Devops class start github
 
 on:
-  
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
-
-
 jobs:
- 
   deploy:
-    
     runs-on: ubuntu-latest
     steps:
       - name: print hello world
-      run: echo"hello world"
-      
+        run: echo "hello world"
